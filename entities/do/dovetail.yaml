@@ -18,6 +18,8 @@ sources:
     url: https://www.withdovetail.com/offer/fda-pathway-pre-submission-meeting
   - source_id: src_9bc6d7af60c5d9ee0ea47d075edc09b2414b89d5e19bc676321510454b37e601
     url: https://www.withdovetail.com/offer/fda-pathway-pre-submission-meeting/apply
+  - source_id: src_3dc08d66e4e7264f330ab7164d833fb85c14b671c57c5324bd3474ac8a932b91
+    url: https://blog.withdovetail.com/blog-post/formlyai-is-now-dovetail/
 programs: []
 offers:
   - offer_id: off_01m1tm8d9mw0cpvej6c69sme2v
@@ -36,7 +38,7 @@ offers:
         - benefit_id: ben_01m1tm8d9m8rgtexr0q82p6xzh
           kind: free-service
           service: FDA pathway and pre-submission preparation support
-          description: No-cost, stage-appropriate regulatory support for three founders each month. No cash value or fixed service duration is published.
+          description: Stage-appropriate FDA preparation and attendance at the pre-submission meeting, at no cost, for three founders per month.
     eligibility:
       rule:
         kind: manual
@@ -54,3 +56,4 @@ offers:
     source_ids:
       - src_e5743b0a753bf6c0893edb7202915cce179c8627644cc80c07a4c99953c10113
       - src_9bc6d7af60c5d9ee0ea47d075edc09b2414b89d5e19bc676321510454b37e601
+      - src_3dc08d66e4e7264f330ab7164d833fb85c14b671c57c5324bd3474ac8a932b91
