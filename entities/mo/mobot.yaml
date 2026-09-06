@@ -22,14 +22,14 @@ offers:
     offer_slug: yc-startup-support
     offer_slug_aliases: []
     title: YC Startup Support mobile QA discount
-    summary: New YC startups receive 50% off a one-month Mobot base-tier mobile QA pilot, with 2,500 Mobot Credits included.
+    summary: YC startups that have never been Mobot customers receive 50% off a one-month Mobot base-tier mobile QA pilot, with 2,500 Mobot Credits included.
     lifecycle:
       status: active
       effective_from: 2026-09-06T05:58:23.221Z
     economics:
       consideration:
         kind: variable
-        description: A paid one-month base-tier pilot is required; the published saving is USD 1,250.
+        description: A paid one-month base-tier pilot is required; the offer discounts the base package by 50%.
       benefits:
         - benefit_id: ben_01m1tmqs7pf29t6nn53170a1fs
           kind: discount
@@ -43,7 +43,7 @@ offers:
           description: 50% discount on the base-tier pilot.
         - benefit_id: ben_01m1tmqs7p31eqjjqdfsvqvjs8
           kind: other
-          description: 2,500 Mobot Credits included at no extra charge when starting the pilot; test-case setup is limited to 500 unique actions per month.
+          description: 2,500 Mobot Credits (service usage units) included at no extra charge when starting the pilot; test-case setup is limited to 500 unique actions per month.
     eligibility:
       rule:
         kind: manual
