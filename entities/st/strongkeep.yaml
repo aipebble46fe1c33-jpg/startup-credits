@@ -23,7 +23,7 @@ offers:
     offer_slug_aliases: []
     title: 500 Global portfolio annual-plan discount
     summary: 500 Global portfolio startups receive 25% off StrongKeep Protection and Compliance annual base plans; additional devices remain full price. Offer valid until 30 June 2027.
-    description: The source gives an expiry date without a timezone or exact cutoff time. StrongKeep may modify or withdraw the offer without notice.
+    description: StrongKeep may modify or withdraw this portfolio offer without notice. Use of the service is subject to StrongKeep's terms of service.
     lifecycle:
       status: active
       effective_from: 2026-09-06T06:08:35.021Z
