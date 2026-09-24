@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-06T06:08:35.021Z
   category: auth-security
 profile:
+  summary: StrongKeep is a cybersecurity platform that bundles anti-malware, a web firewall, a password manager, a server scanner and staff training.
   description: StrongKeep bundles device protection, a web firewall, password management, staff training, and compliance guidance for businesses.
   links:
     site: https://www.strongkeep.com/
@@ -21,16 +22,16 @@ offers:
   - offer_id: off_01m1tnaepe0tbpvgss8qjcgdrk
     offer_slug: 500-global-portfolio-discount
     offer_slug_aliases: []
-    title: 500 Global portfolio annual-plan discount
-    summary: 500 Global portfolio startups receive 25% off StrongKeep Protection and Compliance annual base plans; additional devices remain full price. Offer valid until 30 June 2027.
-    description: StrongKeep may modify or withdraw this portfolio offer without notice. Use of the service is subject to StrongKeep's terms of service.
+    title: 25% off StrongKeep annual plans for 500 Global portfolio companies
+    summary: 500 Global portfolio companies get 25% off StrongKeep's Protection and Compliance annual base plans, applied automatically at checkout, until 30 June 2027.
+    description: The offer is valid until 30 June 2027, is limited to one account per company, is non-transferable, and cannot be combined with any other promotion or discount. StrongKeep may modify or withdraw it without notice.
     lifecycle:
       status: active
       effective_from: 2026-09-06T06:08:35.021Z
     economics:
       consideration:
         kind: variable
-        description: A paid annual Protection or Compliance base plan is required. Extra device coverage beyond the five included devices is charged at normal rates.
+        description: The company pays the discounted annual base plan, from $29.25 per month for Protection or $119.25 per month for Compliance for 5 devices; additional devices are charged at the normal $5.50 per month.
       benefits:
         - benefit_id: ben_01m1tnaepef8ph8vm66x58etmd
           kind: discount
@@ -38,20 +39,21 @@ offers:
           percentage:
             kind: exact
             basis_points: 2500
-          description: 25% off annual base plans; the discount is applied at checkout after registration through the vendor partner-page links.
+          description: 25% discount on annual base plans for the Protection and Compliance plans.
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_500_global_portfolio
         reason: external-verification
-        statement: Exclusive to 500 Global portfolio companies. One account per company; non-transferable and not combinable with other promotions or discounts. Valid until 30 June 2027.
+        statement: Exclusive to 500 Global portfolio companies.
     roles:
       terms_authority_entity_id: ent_01m1tnaepd10yyn2w51mxnma3m
       access_operator_entity_id: ent_01m1tnaepd10yyn2w51mxnma3m
     access:
-      availability: public
+      availability: membership
       method: automatic
       url: https://www.strongkeep.com/partners/500/
+      instructions: Register through the links on StrongKeep's 500 Global partner page; the promo code is applied automatically at checkout.
     terms_url: https://www.strongkeep.com/partners/500/
     source_ids:
       - src_60657552df05ee67292e1eaaea21f5236fae77e98d64238be54ed0fb8fae5118
