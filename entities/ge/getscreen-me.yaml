@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-09-06T05:00:50.969Z
   category: support
 profile:
+  summary: Getscreen.me is browser-based remote desktop software for remote device control, remote support, and screen sharing.
   description: Getscreen.me provides browser-based remote desktop access, remote support, screen sharing, and tools for managing devices.
   links:
     site: https://getscreen.me/en/
@@ -21,30 +22,29 @@ offers:
   - offer_id: off_01m1thedwt58j61s6jyry7pg9x
     offer_slug: startup-business-subscription-discount
     offer_slug_aliases: []
-    title: Startup business subscription discount
-    summary: Private commercial companies less than five years old can request up to 25% off Getscreen.me business subscriptions.
-    description: Use the For Startups section and its Request a Discount form. The source does not publish a fixed discount duration or renewal terms.
+    title: Up to 25% off Getscreen.me business subscriptions for startups
+    summary: Private commercial companies less than 5 years old can get up to 25% off Getscreen.me business subscriptions by requesting the startup discount.
     lifecycle:
       status: active
       effective_from: 2026-09-06T05:00:50.969Z
     economics:
+      consideration:
+        kind: variable
+        description: The company pays for its Getscreen.me business subscription with a startup discount of up to 25%.
       benefits:
         - benefit_id: ben_01m1thedwtqafcevgjw5z1gwe7
           kind: discount
           applies_to: Business subscriptions
-          description: Up to 25% off business subscriptions for eligible startups.
+          description: Up to 25% off business subscriptions.
           percentage:
             kind: up-to
             basis_points: 2500
-      consideration:
-        kind: variable
-        description: A paid business subscription is required; the final price depends on the subscription and approved discount.
     eligibility:
       rule:
         kind: manual
         criterion_id: cri_startup_eligibility
         reason: external-verification
-        statement: The applicant must be a private commercial company less than five years old and submit information about the startup through the discount request form.
+        statement: The applicant is a private commercial company less than 5 years old.
     roles:
       terms_authority_entity_id: ent_01m1thedwswzb80swkxceze2ef
       access_operator_entity_id: ent_01m1thedwswzb80swkxceze2ef
@@ -52,6 +52,6 @@ offers:
       availability: public
       method: form
       url: https://getscreen.me/en/pricing/discounts/
-    terms_url: https://getscreen.me/en/pricing/discounts/
+      instructions: Use Request a Discount under For Startups on the Getscreen.me discounts page.
     source_ids:
       - src_2a4cd933bb6822d519b8b8db3883931c078c0e63a13ee670776f50d71b03ed2c
