@@ -31,15 +31,14 @@ offers:
     economics:
       consideration:
         kind: variable
-        description: The company pays the discounted annual base plan, from $29.25 per month for Protection or $119.25 per month for Compliance for 5 devices; additional devices are charged at the normal $5.50 per month.
+        description: The startup receives a 25% discount on annual base plans for the Protection and Compliance plans, applied automatically at checkout.
       benefits:
         - benefit_id: ben_01m1tnaepef8ph8vm66x58etmd
           kind: discount
-          applies_to: Protection and Compliance annual base plans
           percentage:
             kind: exact
             basis_points: 2500
-          description: 25% discount on annual base plans for the Protection and Compliance plans.
+          description: 25% discount applies to annual base plans for the Protection and Compliance plans.
     eligibility:
       rule:
         kind: manual
